@@ -12,6 +12,8 @@ public class BasicPOSTReq {
 		//Path parameters are not meant for post request,for post req we use query parameter and body parameters.
 		//https://maps.googleapis.com/maps/api/place/add/json?key=AIzaSyDIQgAh0B4p0SdyYkyW8tlG-y0yJMfss5Y
 		
+		System.out.println("Basic req");
+		
 		RestAssured.baseURI="https://maps.googleapis.com";
 		given().
 		
