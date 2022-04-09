@@ -13,6 +13,7 @@ public class BasicPOSTReq {
 		//https://maps.googleapis.com/maps/api/place/add/json?key=AIzaSyDIQgAh0B4p0SdyYkyW8tlG-y0yJMfss5Y
 		
 		System.out.println("Basic req");
+		System.out.println("Testing pull request Git");
 		
 		RestAssured.baseURI="https://maps.googleapis.com";
 		given().
