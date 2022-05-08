@@ -36,9 +36,11 @@ public void addBook() throws IOException
 
 {
 
-
+<<<<<<< HEAD
+System.out.println("Test");
+=======
 System.out.println("Hello");
-
+>>>>>>> 944afaad2daa73ea1e443bf934b63348bba64d5f
 
 RestAssured.baseURI="http://216.10.245.166";
 
